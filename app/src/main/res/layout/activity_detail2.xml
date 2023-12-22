@@ -155,13 +155,14 @@
 
             <TextView
                 android:id="@+id/movieActories"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="401dp"
+                android:layout_height="43dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="8dp"
                 android:text="      test"
                 android:textColor="@color/white"
-                android:layout_margin="10dp"
                 app:layout_constraintEnd_toEndOf="@+id/textView23"
-                app:layout_constraintHorizontal_bias="0.13"
+                app:layout_constraintHorizontal_bias="0.036"
                 app:layout_constraintStart_toStartOf="@+id/textView23"
                 app:layout_constraintTop_toBottomOf="@+id/textView23" />
 

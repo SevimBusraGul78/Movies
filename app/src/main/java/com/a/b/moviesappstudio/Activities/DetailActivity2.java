@@ -94,8 +94,8 @@ public class DetailActivity2 extends AppCompatActivity {
         movieActors=findViewById(R.id.movieActories);
         backImg=findViewById(R.id.imageView4);
         recyclerViewCategory=findViewById(R.id.genreView);
-        recyclerViewActors=findViewById(R.id.imagesRecycler);
-        recyclerViewActors.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
+       recyclerViewActors=findViewById(R.id.imagesRecycler);
+       recyclerViewActors.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         recyclerViewCategory.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
         backImg.setOnClickListener(v -> finish());
 
